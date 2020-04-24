@@ -1,0 +1,90 @@
+
+<! DOCTYPE html>
+ <html>
+ <head>
+ <title>Students Details</title>
+ </head>
+ <body>
+<form action="mailto:lnd.in@capgemini.com" name="ab" method="post"
+enctype="multipart/form-data">
+        <table border="1" bgcolor="skyblue" >
+
+        <caption>Student Details</caption>
+        <colgroup>
+          <col>
+        </colgroup>
+        <colgroup>
+           <col align="center">
+           <col>
+        </colgroup>
+        <tr>
+	<td>Name<font color="red">*</font></td>
+	<td><input type="text" size="15" placeholder="Enter name">
+	</tr>
+	<tr>
+	<td>password<font color="red">*</font></td>
+	<td><input type="password" size="15" placeholder="Enter password">
+	</tr>
+        <tr>
+	<td>Phone Number<font color="red">*</font></td>
+	<td><input type="number" size="10" placeholder="Enter number">
+	</tr>
+	<tr>
+	<td>Gender<font color="red">*</font></td>
+	<td><input  type="radio" name="s-grp" value="male"> male <br>
+            <input type="radio" name="s-grp" value="female"> Female <br>
+             </td>
+         </tr>
+	<tr>
+	<td>Date of Birth<font color="red">*</font></td>
+	<td> <input type="date" name="bday" max="datetime-local">
+		</td>
+	<tr>
+	<td>Email<font color="red">*</font></td>
+	<td><input type="email" placeholder="Enter your mail id"></td>
+	</tr>
+	<tr>
+	<td>Highest Qualification<font color="red">*</font></td>
+	<td>
+           <select name="Quql">
+            <option value="B.tech">B.Tech </option>
+            <option value="m.tech">M.Tech </option>
+            <option value="MBA">MBA</option>
+         <option value="MCA">MCA</option>
+         <option value="MSc">MSc</option>
+         <option value="MA">MA</option>
+            </select>	</td>
+	</tr>
+	<tr>
+	<td>Courses Intrested<font color="red">*</font></td>
+	<td><input type="checkbox" name="s-html"> HTML/DHTML <br>
+            <input type="checkbox" name="s-java" checked> Java<br>
+            <input type="checkbox" name="s-Client"> Client/Server <br>
+	    <input type="checkbox" name="s-net" >.NET	</td>
+	
+	</tr>
+	<tr>
+	<td>Comments<font color="red">*</font>(Mention external Certifications if any)</td>
+	<td><textarea name="addr" Rows="5" cols="40" tabindex="0" accesskey="A">Write comment</textarea></td>
+	</tr>
+	<tr>
+	<td>Upload Degree/External certificates<font color="red">*</font></td>
+	<td><input type="file">No file chosen</td>
+	</tr>
+	<tr>
+	<td colspan="2"><center><input type="submit" value="Submit"><input type="reset" value="clear"></center></td>
+	</tr>
+
+       <tfoot>
+       <tr>
+        <td colspan="2"><center><font color="red">All Field marked(*) are mandatory</font></center></td>
+        
+        </tr>
+  </tfoot>
+		
+         </table>
+</form>
+</body>
+</html>
+
+
